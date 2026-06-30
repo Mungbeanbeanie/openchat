@@ -1,5 +1,5 @@
-import type { Action, Creator } from "../domain.js";
-import type { PipelineContext } from "./context.js";
+import type { Action, Creator } from "../domain";
+import type { PipelineContext } from "./context";
 
 /**
  * Perform a decided action against the Meta client and record it for audit.

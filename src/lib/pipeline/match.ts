@@ -1,4 +1,4 @@
-import type { Automation } from "../domain.js";
+import type { Automation } from "../domain";
 
 /**
  * Find the first automation whose keyword matches the comment text.

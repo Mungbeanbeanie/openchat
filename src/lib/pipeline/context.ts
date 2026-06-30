@@ -1,5 +1,5 @@
-import type { MetaClient } from "../meta/client.js";
-import type { Repositories } from "../db/repositories.js";
+import type { MetaClient } from "../meta/client";
+import type { Repositories } from "../db/repositories";
 
 /** Everything the pipeline needs, injected so it can run against mocks or live deps. */
 export interface PipelineContext {

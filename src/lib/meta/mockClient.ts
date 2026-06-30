@@ -5,7 +5,7 @@ import type {
   SendDirectMessageArgs,
   SendPrivateReplyArgs,
   UserProfile,
-} from "./client.js";
+} from "./client";
 
 export type MockCall =
   | { kind: "private_reply"; commentId: string; text: string }

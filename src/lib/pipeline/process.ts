@@ -1,7 +1,7 @@
-import type { Action, CommentEvent, MessageEvent, NormalizedEvent } from "../domain.js";
-import type { PipelineContext } from "./context.js";
-import { perform } from "./execute.js";
-import { matchAutomation } from "./match.js";
+import type { Action, CommentEvent, MessageEvent, NormalizedEvent } from "../domain";
+import type { PipelineContext } from "./context";
+import { perform } from "./execute";
+import { matchAutomation } from "./match";
 
 const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
 

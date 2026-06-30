@@ -1,5 +1,5 @@
-import type { NormalizedEvent } from "../domain.js";
-import type { IgWebhookBody } from "../meta/types.js";
+import type { NormalizedEvent } from "../domain";
+import type { IgWebhookBody } from "../meta/types";
 
 /**
  * Normalize a raw Instagram webhook body into typed events.

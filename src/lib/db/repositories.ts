@@ -5,7 +5,7 @@ import type {
   Creator,
   FlowState,
   FlowStateName,
-} from "../domain.js";
+} from "../domain";
 
 export interface NewFlowState {
   creatorId: string;

@@ -1,11 +1,11 @@
 import { randomUUID } from "node:crypto";
-import type { Automation, Contact, Creator, FlowState } from "../domain.js";
+import type { Automation, Contact, Creator, FlowState } from "../domain";
 import type {
   FlowStatePatch,
   NewFlowState,
   OutboundActionRecord,
   Repositories,
-} from "./repositories.js";
+} from "./repositories";
 
 const ACTIVE_STATES = new Set(["AWAITING_ENGAGEMENT", "AWAITING_FOLLOW"]);
 

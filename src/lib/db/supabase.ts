@@ -1,12 +1,12 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
-import { config } from "../config.js";
-import type { Automation, Contact, Creator, FlowState } from "../domain.js";
+import { config } from "../config";
+import type { Automation, Contact, Creator, FlowState } from "../domain";
 import type {
   FlowStatePatch,
   NewFlowState,
   OutboundActionRecord,
   Repositories,
-} from "./repositories.js";
+} from "./repositories";
 
 const ACTIVE_STATES = ["AWAITING_ENGAGEMENT", "AWAITING_FOLLOW"];
 

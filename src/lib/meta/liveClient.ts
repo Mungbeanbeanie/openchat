@@ -1,4 +1,4 @@
-import { config } from "../config.js";
+import { config } from "../config";
 import {
   DEFAULT_PROFILE_FIELDS,
   type GetUserProfileArgs,
@@ -7,8 +7,8 @@ import {
   type SendDirectMessageArgs,
   type SendPrivateReplyArgs,
   type UserProfile,
-} from "./client.js";
-import type { IgUserProfileResponse } from "./types.js";
+} from "./client";
+import type { IgUserProfileResponse } from "./types";
 
 /**
  * Real Instagram Graph API client (Instagram API with Instagram Login).
